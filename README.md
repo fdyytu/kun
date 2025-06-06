@@ -53,7 +53,7 @@ This project provides a comprehensive backend API service for digital product sa
 ## Tech Stack
 
 - **Framework:** FastAPI
-- **Database:** PostgreSQL
+- **Database:** Sqlite3
 - **Cache:** Redis
 - **Queue:** RabbitMQ
 - **Authentication:** JWT
