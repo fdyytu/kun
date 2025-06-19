@@ -1,0 +1,21 @@
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:     Will watch for changes in these directories: ['/home/user/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1106] using WatchFiles
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:     Started server process [1108]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:60602 - "POST /api/v1/admin/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50516 - "GET /api/v1/admin/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60670 - "GET /api/v1/admin/dashboard/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60672 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36820 - "GET / HTTP/1.1" 200 OK
